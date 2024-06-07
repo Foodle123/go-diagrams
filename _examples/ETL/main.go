@@ -2,9 +2,9 @@ package main
 
 import (
     "log"
-	//"github.com/blushft/go-diagrams/nodes/azure"
+	"github.com/Foodle123/go-diagrams/nodes/azure"
 	//"../../nodes/azure"
-    //"github.com/blushft/go-diagrams/diagram"
+    "github.com/Foodle123/go-diagrams/diagram"
     //"github.com/blushft/go-diagrams/nodes/aws"
     //"github.com/blushft/go-diagrams/nodes/generic"
 )

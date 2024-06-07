@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	graphviz "github.com/awalterschulze/gographviz"
-	"github.com/blushft/go-diagrams/nodes/assets"
-	"github.com/blushft/go-diagrams/pkg/rand"
+	"github.com/Foodle123/go-diagrams/nodes/assets"
+	"github.com/Foodle123/go-diagrams/pkg/rand"
 )
 
 type Node struct {
