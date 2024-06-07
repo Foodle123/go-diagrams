@@ -141,3 +141,16 @@ func (c *generalContainer) Tag(opts ...diagram.NodeOption) *diagram.Node {
 	nopts := diagram.MergeOptionSets(diagram.OptionSet{diagram.Icon("assets/azure/general/tag.png")}, c.opts, opts)
 	return diagram.NewNode(nopts...)
 }
+
+func (c *generalContainer) XMLFile(opts ...diagram.NodeOption) *diagram.Node {
+	nopts := diagram.MergeOptionSets(diagram.OptionSet{diagram.Icon("assets/azure/general/x.png")}, c.opts, opts)
+	return diagram.NewNode(nopts...)
+}
+
+func (c *generalContainer) TXTFile(opts ...diagram.NodeOption) *diagram.Node {
+	nopts := diagram.MergeOptionSets(diagram.OptionSet{diagram.Icon("assets/azure/general/txtfile.png")}, c.opts, opts)
+	return diagram.NewNode(nopts...)
+	
+func (c *generalContainer) CSVFile(opts ...diagram.NodeOption) *diagram.Node {
+nopts := diagram.MergeOptionSets(diagram.OptionSet{diagram.Icon("assets/azure/general/csvfile.png")}, c.opts, opts)
+return diagram.NewNode(nopts...)
