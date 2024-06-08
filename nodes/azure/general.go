@@ -153,6 +153,6 @@ func (c *generalContainer) TXTFile(opts ...diagram.NodeOption) *diagram.Node {
 }
 	
 func (c *generalContainer) CSVFile(opts ...diagram.NodeOption) *diagram.Node {
-nopts := diagram.MergeOptionSets(diagram.OptionSet{diagram.Icon("assets/azure/general/csvfile.png")}, c.opts, opts)
-return diagram.NewNode(nopts...)
+	nopts := diagram.MergeOptionSets(diagram.OptionSet{diagram.Icon("assets/azure/general/csvfile.png")}, c.opts, opts)
+	return diagram.NewNode(nopts...)
 }
