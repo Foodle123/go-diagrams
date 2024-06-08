@@ -17,9 +17,9 @@ func main() {
 
 
 //create RawFile nodes
-	genericFile1 := azure.General.Templates().Label("RawFile")
-	genericFile2 := azure.General.Templates().Label("RawFile")
-	genericFile3 := azure.General.Templates().Label("RawFile")
+	genericFile1 := azure.General.CSVFile().Label("RawFile")
+	genericFile2 := azure.General.TXTFile().Label("RawFile")
+	genericFile3 := azure.General.XMLFile().Label("RawFile")
 
 //create Load node	
 	rawFileStorage := azure.Storage.GeneralStorage().Label("Load")

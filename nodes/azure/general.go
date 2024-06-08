@@ -143,7 +143,7 @@ func (c *generalContainer) Tag(opts ...diagram.NodeOption) *diagram.Node {
 }
 
 func (c *generalContainer) XMLFile(opts ...diagram.NodeOption) *diagram.Node {
-	nopts := diagram.MergeOptionSets(diagram.OptionSet{diagram.Icon("assets/azure/general/x.png")}, c.opts, opts)
+	nopts := diagram.MergeOptionSets(diagram.OptionSet{diagram.Icon("assets/azure/general/xml.png")}, c.opts, opts)
 	return diagram.NewNode(nopts...)
 }
 
