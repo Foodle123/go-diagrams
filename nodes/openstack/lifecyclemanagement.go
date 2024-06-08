@@ -1,6 +1,6 @@
 package openstack
 
-import "github.com/blushft/go-diagrams/diagram"
+import "github.com/foodle123/go-diagrams/diagram"
 
 type lifecyclemanagementContainer struct {
 	path string

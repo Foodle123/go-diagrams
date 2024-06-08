@@ -1,6 +1,6 @@
 package saas
 
-import "github.com/blushft/go-diagrams/diagram"
+import "github.com/foodle123/go-diagrams/diagram"
 
 type chatContainer struct {
 	path string

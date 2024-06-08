@@ -5,8 +5,8 @@ import (
 	"github.com/Foodle123/go-diagrams/nodes/azure"
 	//"../../nodes/azure"
     "github.com/Foodle123/go-diagrams/diagram"
-    //"github.com/blushft/go-diagrams/nodes/aws"
-    //"github.com/blushft/go-diagrams/nodes/generic"
+    //"github.com/foodle123/go-diagrams/nodes/aws"
+    //"github.com/foodle123/go-diagrams/nodes/generic"
 )
 
 func main() {
