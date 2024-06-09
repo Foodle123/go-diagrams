@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/foodle123/go-diagrams/diagram"
-	"github.com/foodle123/go-diagrams/nodes/gcp"
+	"github.com/Foodle123/go-diagrams/diagram"
+	"github.com/Foodle123/go-diagrams/nodes/gcp"
 )
 
 func main() {

@@ -1,6 +1,6 @@
 package aws
 
-import "github.com/foodle123/go-diagrams/diagram"
+import "github.com/Foodle123/go-diagrams/diagram"
 
 type mediaContainer struct {
 	path string

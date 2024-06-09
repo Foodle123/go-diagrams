@@ -1,6 +1,6 @@
 package oci
 
-import "github.com/foodle123/go-diagrams/diagram"
+import "github.com/Foodle123/go-diagrams/diagram"
 
 type securityContainer struct {
 	path string

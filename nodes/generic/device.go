@@ -1,6 +1,6 @@
 package generic
 
-import "github.com/foodle123/go-diagrams/diagram"
+import "github.com/Foodle123/go-diagrams/diagram"
 
 type deviceContainer struct {
 	path string
