@@ -23,3 +23,13 @@ edit in the dot file
 
 pad=0.5;
 ranksep=2;
+
+to make the labels below the image edit
+
+height=2
+
+add
+
+imagepos="tc"
+
+edit Labels with "" and add \n

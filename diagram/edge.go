@@ -90,6 +90,12 @@ func DefaultEdgeOptions(opts ...EdgeOption) EdgeOptions {
 	return eopts
 }
 
+func WithLabel(label string) EdgeOption {
+    return func(o *EdgeOptions) {
+        o.Label = label
+    }
+}
+
 func (o EdgeOptions) edgeDirection() string {
 	if o.Forward && o.Reverse {
 		return "both"
